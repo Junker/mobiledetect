@@ -1,6 +1,6 @@
 # MobileDetect
 
-MobileDetect is a lightweight system for detecting mobile devices (including tablets). \
+MobileDetect is a lightweight Common Lisp system for detecting mobile devices (including tablets). \
 The system will detect the device by comparing patterns against a given 
 User-Agent string.
 
@@ -43,4 +43,4 @@ This system can be installed from [UltraLisp](https://ultralisp.org/) like this:
 
 ## Credits
 
-Using regexp list from http://mobiledetect.net/
+Using regexp list from https://mobiledetect.net/

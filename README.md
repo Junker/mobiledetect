@@ -8,7 +8,7 @@ User-Agent string.
 
 This system can be installed from [UltraLisp](https://ultralisp.org/) like this:
 
-```lisp
+```common-lisp
 (ql-dist:install-dist "http://dist.ultralisp.org/"
                       :prompt nil)
 (ql:quickload "mobiledetect")
@@ -16,7 +16,7 @@ This system can be installed from [UltraLisp](https://ultralisp.org/) like this:
 
 ## Usage
 
-```lisp
+```common-lisp
 (setq *ua* "Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36")
 
 (mobiledetect:mobilep *ua*)
